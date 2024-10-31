@@ -1,0 +1,25 @@
+<fieldset class="flex flex-col gap-3 pt-3">
+  <legend class="text-preset-4 text-slate-700">Mortgage Type</legend>
+
+  <label>
+    <input
+      type="radio"
+      name="type"
+      value="repayment"
+      [checked]="value === 'repayment'"
+      (change)="handleChange('repayment')"
+    />
+    Repayment
+  </label>
+
+  <label>
+    <input
+      type="radio"
+      name="type"
+      value="interest"
+      [checked]="value === 'interest'"
+      (change)="handleChange('interest')"
+    />
+    Interests Only
+  </label>
+</fieldset>

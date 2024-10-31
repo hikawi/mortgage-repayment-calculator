@@ -1,0 +1,16 @@
+label
+    @apply text-preset-3 flex h-12 flex-row items-center gap-4 rounded border-[1px] border-slate-500 px-4
+
+    &:hover, &:focus-within
+        @apply border-lime
+
+    &:has(:checked)
+        @apply bg-lime/15
+
+input[type="radio"]
+    appearance: none
+    -moz-appearance: none
+    @apply size-5 rounded-full border-slate-700 border-[1px]
+
+    &:checked
+        @apply relative after:absolute after:inset-1 after:rounded-full after:bg-lime border-lime
