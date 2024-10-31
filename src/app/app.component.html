@@ -1,4 +1,6 @@
-<main class="flex items-center justify-center bg-white md:rounded-3xl">
+<main
+  class="flex w-full max-w-[63rem] flex-col items-stretch justify-center bg-white md:rounded-3xl xl:grid xl:grid-cols-2 xl:items-stretch"
+>
   <form
     class="flex w-full flex-col gap-6 px-6 py-8 md:gap-10 md:p-10"
     novalidate
@@ -49,7 +51,7 @@
 
     <button
       class="text-preset-3 flex h-14 w-full items-center justify-center gap-3 rounded-full bg-lime px-10 hover:bg-gradient-to-r hover:from-white/50 hover:to-white/50 focus:bg-gradient-to-r focus:from-white/50 focus:to-white/50 disabled:cursor-not-allowed disabled:opacity-50 md:w-fit"
-      type="submit"
+      type="button"
       [disabled]="checkError()"
       (click)="handleSubmit($event)"
     >
@@ -57,4 +59,10 @@
       Calculate Repayment
     </button>
   </form>
+
+  @if (total <= 0) {
+    <empty-results />
+  } @else {
+    <payment-results [total]="total" [monthly]="monthly" />
+  }
 </main>
