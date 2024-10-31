@@ -1,27 +1,78 @@
-# MortgageRepaymentCalculator
+# Frontend Mentor - Mortgage repayment calculator solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+This is a solution to the [Mortgage repayment calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/mortgage-repayment-calculator-Galx1LXK73). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Frontend Mentor - Mortgage repayment calculator solution](#frontend-mentor---mortgage-repayment-calculator-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+    - [Useful resources](#useful-resources)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+Users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Input mortgage information and see monthly repayment and total repayment amounts after submitting the form
+- See form validation messages if any field is incomplete
+- Complete the form only using their keyboard
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-## Running unit tests
+### Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<details>
+<summary>Desktop</summary>
 
-## Running end-to-end tests
+![Desktop](./screenshot-desktop.jpeg)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+</details>
 
-## Further help
+<details>
+<summary>Tablet</summary>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Tablet](./screenshot-tablet.jpeg)
+
+</details>
+
+<details>
+<summary>Mobile</summary>
+
+![Mobile](./screenshot-mobile.jpeg)
+
+</details>
+
+### Links
+
+- [Live Site URL](https://mortgage-repayment-calculator.frilly.dev/)
+
+## My process
+
+### Built with
+
+- [Angular](https://angular.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+### What I learned
+
+This is my first project with the Angular framework. I knew this framework was very opinionated, complicated and has a very steep learning curve. Overall, I still like the simplicity of Vue more. SolidJS, which is a signal-based version and cleaner version of React holds second place for me. And surprisingly, Angular is already shot up to third place for me, over Svelte and React.
+
+Angular strikes me as a true all-in-one solution, there's literally everything already included in Angular. There are so much stuff to learn about. This project's coding practices are probably bad as I still hold a Vue mindset when working with this.
+
+### Continued development
+
+I would love to try more of Angular's features. I chose this project to start with Angular as it is not too difficult, but Angular alone took me 2 days to get a very basic app working.
+
+### Useful resources
+
+- [Angular Docs](https://angular.dev/)
+- [Angular Docs, but JP version](https://angular.jp/)

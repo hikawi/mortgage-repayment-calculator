@@ -10,7 +10,7 @@ describe('EmptyResultsComponent', () => {
     await TestBed.configureTestingModule({
       imports: [EmptyResultsComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(EmptyResultsComponent);
     component = fixture.componentInstance;

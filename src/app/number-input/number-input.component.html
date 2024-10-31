@@ -19,10 +19,12 @@
       type="text"
       inputmode="numeric"
       name="{{ name }}"
+      id="{{ identifier }}"
       [value]="value"
       (input)="handleChange($event)"
       class="text-preset-3 w-full rounded px-4 outline-none"
       [attr.aria-invalid]="errorMessage !== ''"
+      attr.aria-describedby="{{ identifier }}-description"
       attr.aria-errormessage="{{ identifier }}-error-message"
       required
     />
